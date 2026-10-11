@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecom-Ecom Marketplace Template</title>
+        <link rel="icon" type="image/svg+xml" href="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/favicon.svg">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <style>
+body{overflow-x:hidden;color:#425A8B;font-family:"DM Sans",sans-serif;font-size:14px;line-height:18px;font-style:normal;font-weight:400}
+.font{font-family:"DM Sans",sans-serif;color:#3b526d}
+.font:hover{color:#d97706}
+.nav-link{color:#425A8B;padding:0}
+.nav-link:hover{color:#ffc107}
+.nav-link-tow{color:#64748b;text-decoration:none}
+.nav-link-tow:hover{color:#2b3e6b;font-weight:bolder}
+.btn-orange{background-color:#ff9f43;color:#fff;transition:all .3s ease}
+.btn-orange:hover{background-color:#425A8B;color:#fff}
+.btn-blue{background-color:#425A8B;color:#fff;transition:all .3s ease}
+.btn-blue:hover{background-color:#ff9f43;color:#fff}
+.link-learn-more{color:#4a729a;font-weight:600;text-decoration:none;text-underline-offset:4px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:all .2s ease-in-out}
+.link-learn-more:hover{color:#ff9f43;text-underline-offset:6px}
+.link-learn-more:active{color:#d97706}
+.link-color{color:#64748b}
+.link-color:hover{color:#94a3b8}
+.link-hover{color:#64748b}
+.link-hover:hover,.link-hover.active{color:#425A8B;font-weight:bold}
+.link-hover-color{color:#000}
+.link-hover-color:hover{color:#0dcaf0}
+.blog-title-link{color:#2d3748;transition:color .2s ease}
+.blog-title-link:hover{color:var(--bs-info)}
+.brand-logo{opacity:.5;transition:all .3s ease;max-height:28px;width:auto;object-fit:contain;cursor:pointer}
+.brand-logo:hover{opacity:1;transform:scale(1.08)}
+.category-card{border:1px solid #e2e8f0;border-radius:8px;background-color:#fff;position:relative;overflow:hidden;min-height:180px;transition:all .3s ease}
+.category-card:hover{box-shadow:0 4px 15px rgba(0,0,0,.06)}
+.btn-info:hover{background-color:#FD9232;border-color:#FD9232}
+.product-card .action-tools{opacity:0;transform:translateX(15px);transition:all .3s ease-in-out}
+.product-card:hover .action-tools{opacity:1;transform:translateX(0)}
+.carousel-indicators,.carousel-item{background-color:transparent}
+.feature-box{transition:background-color .2s ease}
+.feature-box:hover{background-color:#f0f3f8}
+.footer-link{color:#2b3b5c;display:inline-block;transition:transform .2s ease}
+.footer-link:hover{transform:translateX(5px);color:#0dcaf0}
+.checklist-transition{display:inline-block;transition:transform .2s ease}
+.checklist-transition:hover{transform:translateX(5px)}
+.breadcrumb a{transition:color .2s ease;color:rgb(108 117 125)}
+.breadcrumb a:hover{color:#26a4e9}
+.team-img{height:300px;object-fit:cover}
+.color-hover{color:#425A8B}
+.color-hover:hover{color:#0dcaf0}
+.sidebar .sb-icon{color:#425A8B}
+.sidebar .sb-icon:hover,.sidebar .sb-icon.show{color:#FD9232}
+.sidebar .dropend:hover>.dropdown-menu{display:block;margin:0}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid py-2">
+            <!-- Top Bar -->
+            <div class="row align-items-center border-bottom py-2 position-relative" style="z-index: 1030;">
+                <div class="col-12 col-md-4">
+                    <ul class="nav align-items-center gap-2 ms-0 ms-lg-5 justify-content-center justify-content-md-start">
+                        <li class="nav-item">
+                            <a href="./page-about-us.html" class="nav-link">About Us</a>
+                        </li>
+                        <div class="vr" style="height: 15px;"></div>
+                        <li class="nav-item">
+                            <a href="./page-careers.html" class="nav-link">Careers</a>
+                        </li>
+                        <div class="vr" style="height: 15px;"></div>
+                        <li class="nav-item">
+                            <a href="./page-register.html" class="nav-link">Open a shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 text-center my-1 my-md-0">
+                    <p class="mb-0">Free shipping for all orders over
+                        <span style="color: #5BC694; font-weight: bold;">$75.00</span>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 px-2 d-flex flex-wrap justify-content-center justify-content-md-start">
+                    <p class="mb-0 me-3 me-lg-4">Need help? Call Us:
+                        <span style="color: #5BC694; font-weight: bold;">+ 1800 900</span>
+                    </p>
+                    <div class="dropdown d-flex align-items-center">
+                        <img
+                            src="./images/flag-en.svg"
+                            alt="EN"
+                            style="width: 16px;"
+                            class="me-1"
+                        >
+                        <button
+                            class="btn btn-sm dropdown-toggle p-0 border-0"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="color: #425A8B; font-size: 14px;"
+                        >English</button>
+                        <ul class="dropdown-menu dropdown-menu-center mt-1">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="./images/flag-en.svg" alt="EN"> English
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="./images/flag-fr.svg" alt="FR"> Français
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="./images/flag-es.svg" alt="ES"> Español
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="./images/flag-pt.svg" alt="PT"> Português
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img src="./images/flag-cn.svg" alt="CN"> 中国人
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown d-flex align-items-center ms-3">
+                        <button
+                            class="btn btn-sm dropdown-toggle p-0 border-0"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="color: #425A8B; font-size: 14px;"
+                        >USD</button>
+                        <ul class="dropdown-menu dropdown-menu-center mt-1">
+                            <li>
+                                <a class="dropdown-item" href="#">USD</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">EUR</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">AUD</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">SGP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+           <!--header start-->
+            <header class="container-fluid border-bottom bg-white sticky-top">
+                <div class="row align-items-center px-lg-4">
+                    <div class="col col-sm-3 col-lg-2 py-3">
+                        <a href="./index.html">
+                            <img src="./images/logo.svg" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- (category dropdown and input) -->
+                    <div class="col-12 col-sm col-lg-4 order-3 order-sm-0 my-2 my-sm-0">
+                        <div class="input-group border rounded-3 align-items-center p-1" style="border-color: #BCE3C6 !important;">
+                            <!--category dropdown -->
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-sm dropdown-toggle px-2"
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    style="color: #253D4E; font-size: 13px;"
+                                >
+                                    All categories
+                                </button>
+                                <div class="dropdown-menu p-3 shadow-sm" style="min-width: 230px;">
+                                    <!--dropdown search-->
+                                    <input
+                                        type="text"
+                                        class="form-control form-control-sm mb-2 border"
+                                        placeholder=""
+                                        style="border-color: #BCE3C6;"
+                                    >
+                                    <!--category list -->
+                                    <div style="max-height: 200px; overflow-y: auto;">
+                                        <ul class="list-unstyled mb-0 ">
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded " href="#">All categories</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded" href="#">Computers Accessories</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded" href="#">Cell Phones</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded" href="#">Gaming Gatgets</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded" href="#">Smart watches</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded" href="#">Wired Headphone</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item py-1 rounded" href="#">Mouse Keyboard</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vr mt-2" style="height: 20px; width: 2px;"></div>
+                            <!-- search-->
+                            <input
+                                type="text"
+                                class="form-control border-0 ps-3"
+                                placeholder="Search for items"
+                                style="font-size: 13px;"
+                            >
+                        </div>
+                    </div>
+                    <div class="col-auto col-lg-6 d-flex align-items-center justify-content-end gap-2 gap-xl-3">
+                        <!-- main Dropdowns -->
+                        <ul class="nav d-none d-lg-flex align-items-center gap-1">
+                            <!-- Home Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle px-2"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu shadow-sm border-0 rounded-3 my-4">
+                                    <li>
+                                        <a class="dropdown-item font" href="./index.html">Homepage - 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="/Homepage2/Homepage-2.html">Homepage - 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./index-4.html">Homepage - 4</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 5</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./index-6.html">Homepage - 6</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 7</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="/Homepage8/Homepage-8.html">Homepage - 8</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 9</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="/Hopmepage 10/index-10.html">Homepage - 10</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Shop Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle px-2"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu shadow-sm border-0 rounded-3 my-2">
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-grid.html">Shop Grid</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-grid-2.html">Shop Grid 2</a>
+                                    </li>
+                                    <li>
+                                          <a class="dropdown-item font" href="/shop list-Left sidebar/shop-grid-left-sidebar.html">Shop list – Left sidebar</a>
+                                    </li>
+                                    <li>
+                                    <a class="dropdown-item font" href="/shop list-Right sidebar/shopList-Rightsidebar.html">Shop list – Right sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-fullwidth.html">Shop Fullwidth</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product.html">Single Product</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product-2.html">Single Product 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product-3.html">Single Product 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product-4.html">Single Product 4</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-cart.html">Shop Cart</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-checkout.html">Shop Checkout</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-compare.html">Shop Compare</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-wishlist.html">Shop Wishlist</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Vendors Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle  px-2"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Vendors
+                                </a>
+                                <ul class="dropdown-menu shadow-sm border-0 rounded-3 my-2">
+                                 <li>
+                                        <a class="dropdown-item font" href="./shop-vendor-list.html">Vendors Listing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-vendor-single.html">Vendor Single</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Pages Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle  px-2"
+                                    href="./index.html"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu shadow-sm border-0 rounded-3 my-2">
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-about-us.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-contact.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-careers.html">Careers</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-term.html">Term and Condition</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-register.html">Register</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-login.html">Login</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-404.html">Error 404</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Blog Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle  px-2"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu shadow-sm border-0 rounded-3 my-2">
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog.html">Blog – No Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-2.html">Blog – Right Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-list.html">Blog List</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-big.html">Blog category big</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-single.html">Blog Single – Left sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-single-2.html">Blog Single – Right sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-single-3.html">Blog Single – No sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Contact Us Link -->
+                            <li class="nav-item">
+                                <a class="nav-link  px-2" href="./page-contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center flex-shrink-0 gap-2 gap-sm-3 ms-2">
+                            <!-- Profile Dropdown  -->
+                            <div class="dropdown">
+                                <a
+                                    class="text-dark text-decoration-none p-1"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    <img src="./images/account.svg" alt="">
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 my-2">
+                                      <li>
+                                        <a class="dropdown-item font px-2" href="/page-account.html#notification">My Account</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font px-2" href="/page-account.html#tracking">Order Tracking</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font px-2" href="/page-account.html#orders">My Orders</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font px-2" href="/page-account.html#wishlist">My Wishlist</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font px-2" href="/page-account.html#setting">Setting</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font px-2" href="/page-login.html">Sign Out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- favories -->
+                            <a href="./shop-wishlist.html" class="text-dark text-decoration-none position-relative p-1">
+                                <img src="./images/wishlist.svg" alt="">
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle text-white fw-bold" style="background-color: #FD9232; font-size: 10px; padding: 3px 6px;">5</span>
+                            </a>
+                            <!--  (Cart) Dropdown -->
+                            <div class="dropdown">
+                                <a
+                                    href="#"
+                                    class="text-dark text-decoration-none position-relative p-1"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    <img src="./images/cart.svg" alt="">
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle text-white fw-bold" style="background-color: #FD9232; font-size: 10px; padding: 3px 6px;">2</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end shadow-sm border rounded-3 my-2 p-3" style="width: 320px; max-width: 90vw;">
+                                    <!-- product 1 -->
+                                    <div class="d-flex align-items-center mb-3">
+                                        <a href="#">
+                                            <img
+                                                src="./images/imgsp5.png"
+                                                alt="product"
+                                                class="img-fluid"
+                                                style="width: 80px;"
+                                            >
+                                        </a>
+                                        <div class="ms-3">
+                                            <a href="#" class="d-block fw-bold text-decoration-none small" style="color: #425A8B;">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                                            <span class="fw-bold small" style="color: #FD9232;">1 x $2856.4</span>
+                                        </div>
+                                    </div>
+                                    <!-- product 2 -->
+                                    <div class="d-flex align-items-center mb-3">
+                                        <a href="#">
+                                            <img
+                                                src="./images/imgsp4.png"
+                                                alt="product"
+                                                class="img-fluid"
+                                                style="width: 80px;"
+                                            >
+                                        </a>
+                                        <div class="ms-3">
+                                            <a href="#" class="d-block fw-bold text-decoration-none small" style="color: #425A8B;">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                                            <span class="fw-bold small" style="color: #FD9232;">1 x $2856.4</span>
+                                        </div>
+                                    </div>
+                                    <!-- total -->
+                                    <div class="d-flex justify-content-between align-items-center border-top pt-3 mb-3">
+                                        <span class="fw-bold" style="color: #425A8B;">Total</span>
+                                        <span class="fw-bold" style="color: #26a4e9;">$2586.3</span>
+                                    </div>
+                                    <!-- buttons -->
+                                    <div class="d-flex gap-2">
+                                        <a href="./shop-cart.html" class="btn btn-sm flex-fill fw-bold py-2 rounded-1" style="border: 1px solid #425A8B; color: #425A8B;">View cart</a>
+                                        <a href="./shop-checkout.html" class="btn btn-sm flex-fill fw-bold py-2 rounded-1" style="background-color: #425A8B; color: #fff;">Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  (Compare) -->
+                            <a href="./shop-compare.html" class="text-dark text-decoration-none p-1">
+                                <img src="./images/compare.svg" alt="">
+                            </a>
+                            <!-- Offcanvas toggle (md and sm screens) -->
+                            <button
+                                class="btn border-0 p-1 d-lg-none"
+                                type="button"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#mobileNav"
+                                aria-controls="mobileNav"
+                                aria-label="Open menu"
+                            >
+                                <i class="bi bi-list fs-2" style="color: #425A8B;"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--header end-->
+           <!-- Offcanvas menu-->
+                <div
+                    class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="mobileNav"
+                    aria-labelledby="mobileNavLabel"
+                    style="width: 330px; max-width: 90vw;"
+                >
+                    <!-- offcanvas header: logo and close button -->
+                    <div class="offcanvas-header mx-4 px-0 pb-3 border-bottom">
+                        <a href="./index.html" id="mobileNavLabel">
+                            <img src="./images/logo.svg" alt="logo">
+                        </a>
+                        <button
+                            type="button"
+                            class="btn-close fs-4 p-0"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body px-4">
+                        <!-- main menu -->
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a
+                                    class="nav-link px-0 d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse"
+                                    href="#mHome"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="mHome"
+                                >
+                                    Home
+                                    <i class="bi bi-caret-down-fill small" style="color: #a3aec4;"></i>
+                                </a>
+                                <ul class="collapse list-unstyled mb-2" id="mHome">
+                                    <li>
+                                        <a class="dropdown-item font" href="./index.html">Homepage - 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="/Homepage2/Homepage-2.html">Homepage - 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./index-4.html">Homepage - 4</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 5</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./index-6.html">Homepage - 6</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 7</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="/Homepage8/Homepage-8.html">Homepage - 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="#">Homepage - 9</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="/Hopmepage 10/index-10.html">Homepage - 10</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a
+                                    class="nav-link px-0 d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse"
+                                    href="#mShop"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="mShop"
+                                >
+                                    Shop
+                                    <i class="bi bi-caret-down-fill small" style="color: #a3aec4;"></i>
+                                </a>
+                                <ul class="collapse list-unstyled mb-2" id="mShop">
+                                   <li>
+                                        <a class="dropdown-item font" href="./shop-grid.html">Shop Grid</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-grid-2.html">Shop Grid 2</a>
+                                    </li>
+                                    <li>
+                                          <a class="dropdown-item font" href="/shop list-Left sidebar/shop-grid-left-sidebar.html">Shop list – Left sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-list-2.html">Shop list – Right sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-fullwidth.html">Shop Fullwidth</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product.html">Single Product</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product-2.html">Single Product 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product-3.html">Single Product 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-single-product-4.html">Single Product 4</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-cart.html">Shop Cart</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-checkout.html">Shop Checkout</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-compare.html">Shop Compare</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-wishlist.html">Shop Wishlist</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a
+                                    class="nav-link px-0 d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse"
+                                    href="#mVendors"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="mVendors"
+                                >
+                                    Vendors
+                                    <i class="bi bi-caret-down-fill small" style="color: #a3aec4;"></i>
+                                </a>
+                                <ul class="collapse list-unstyled mb-2" id="mVendors">
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-vendor-list.html">Vendors Listing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./shop-vendor-single.html">Vendor Single</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a
+                                    class="nav-link px-0 d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse"
+                                    href="#mPages"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="mPages"
+                                >
+                                    Pages
+                                    <i class="bi bi-caret-down-fill small" style="color: #a3aec4;"></i>
+                                </a>
+                                <ul class="collapse list-unstyled mb-2" id="mPages">
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-about-us.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-contact.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-careers.html">Careers</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-term.html">Term and Condition</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-register.html">Register</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-login.html">Login</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./page-404.html">Error 404</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a
+                                    class="nav-link px-0 d-flex justify-content-between align-items-center"
+                                    data-bs-toggle="collapse"
+                                    href="#mBlog"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="mBlog"
+                                >
+                                    Blog
+                                    <i class="bi bi-caret-down-fill small" style="color: #a3aec4;"></i>
+                                </a>
+                                <ul class="collapse list-unstyled mb-2" id="mBlog">
+                                      <li>
+                                        <a class="dropdown-item font" href="./blog.html">Blog – No Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-2.html">Blog – Right Sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-list.html">Blog List</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-big.html">Blog category big</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-single.html">Blog Single – Left sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-single-2.html">Blog Single – Right sidebar</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font" href="./blog-single-3.html">Blog Single – No sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="nav-link px-0" href="./page-contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <hr class="my-4">
+                        <!-- user info -->
+                        <div class="d-flex align-items-center mb-4">
+                            <img
+                                src="./images/ava_1.png"
+                                alt="user"
+                                class="rounded-circle"
+                                style="width: 46px; height: 46px; object-fit: cover;"
+                            >
+                            <div class="ms-3">
+                                <div class="fw-bold small" style="color: #425A8B;">Hello Steven !</div>
+                                <div style="color: #8a96b0; font-size: 12px;">You have 3 new messages</div>
+                            </div>
+                        </div>
+                        <!-- account links -->
+                        <div class="row small">
+                            <div class="col-6">
+                                <ul class="list-unstyled mb-0">
+                                       <li><a class="dropdown-item font px-2" href="/page-account.html#notification">My Account</a></li>
+                <li><a class="dropdown-item font px-2" href="/page-account.html#tracking">Order Tracking</a></li>
+                <li><a class="dropdown-item font px-2" href="/page-account.html#orders">My Orders</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled mb-0">
+                                       <li><a class="dropdown-item font px-2" href="/page-account.html#wishlist">My Wishlist</a></li>
+                <li><a class="dropdown-item font px-2" href="/page-account.html#setting">Setting</a></li>
+                <li><a class="dropdown-item font px-2" href="/page-login.html">Sign Out</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- promo banner -->
+                        <div class="position-relative rounded overflow-hidden" style="background-color: #dcebe4; min-height: 235px;">
+                            <div class="position-relative p-4" style="z-index: 1;">
+                                <div class="small" style="color: #425A8B;">Starting from $899</div>
+                                <h6 class="fw-bold mb-3" style="color: #425A8B;">iPhone 12 Pro 128Gb</h6>
+                                <div class="mb-4" style="color: #425A8B;">Special Sale</div>
+                                <a href="./shop-grid.html" class="text-decoration-none fw-bold small text-uppercase nav-link">
+                                    Learn more
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <img
+                                src="./images/iphone-12.png"
+                                alt="iPhone 12 Pro"
+                                class="position-absolute bottom-0 end-0"
+                                style="height: 65%;"
+                            >
+                        </div>
+                        <!-- copyright -->
+                        <p class="small mt-4 mb-0" style="color: #425A8B;">
+                            Copyright 2022 © Ecom – Marketplace Template. Designed by
+                            <a href="#" class="text-decoration-none" style="color: #26a4e9;">AliThemes</a>
+                        </p>
+                    </div>
+                </div>
+            <div class="d-flex">
+                <!--sidebar start-->
+                <aside class="d-none d-lg-block flex-shrink-0 bg-white border-end sidebar position-sticky align-self-start" style="width: 3rem; top: 33px; margin-left: -0.75rem;">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Computers & Accessories">
+                                <i class="bi bi-pc-display fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Computers &amp; Accessories</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Computer Options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Computer Accessories</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Computer Cases</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Laptop</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">HDD</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">RAM</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Headphone</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Cell Phones">
+                                <i class="bi bi-phone fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Cell Phones</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Phone Accessories</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Phone Cases</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Postpaid Phones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Unlocked Phones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Prepaid Phones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Prepaid Plans</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Refurbished Phones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Straight Talk</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">iPhone</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Samsung Galaxy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Gaming Gadgets">
+                                <i class="bi bi-controller fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Gaming Gadgets</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Wireless Routers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Cool New Gadgets</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Tech and Gadgets</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Geek Gifts and Gadgets</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Xbox Accessories</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">PlayStation Accessories</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Smart watches">
+                                <i class="bi bi-smartwatch fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Smart watches</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Smart Watches</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Fashion Smart Watches</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Smart Bracelets</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Pocket Watches</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Smart Rings</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Other Watches</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Wired Headphone">
+                                <i class="bi bi-earbuds fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Wired Headphone</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">On-Ear Headphones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Earbud &amp; In-Ear</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">DJ Headphones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">PC Accessories</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">PC Game Headsets</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Mouse & Keyboard">
+                                <i class="bi bi-mouse fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Mouse &amp; Keyboard</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Keyboard Options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Logitech</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Redragon</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Amazon Basics</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Microsoft</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">MageGee</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Headphone">
+                                <i class="bi bi-headphones fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Headphone</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Audio Options</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Wireless Headphones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Noise Cancelling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Sports Earbuds</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Bluetooth devices">
+                                <i class="bi bi-bluetooth fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Bluetooth devices</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Wireless Adapters</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Bluetooth Transmitters</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Audio Receivers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">USB Dongles</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Cloud Software">
+                                <i class="bi bi-cloud fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Cloud Software</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Cloud Storage</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">SaaS Applications</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Backup Solutions</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Security Software</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Electric accessories">
+                                <i class="bi bi-plug fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Electric accessories</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Power Strips</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Surge Protectors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Cable Management</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Smart Plugs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Mainboard & CPU">
+                                <i class="bi bi-cpu fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Mainboard &amp; CPU</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Intel Processors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">AMD Processors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Gaming Motherboards</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Next-Gen Chipsets</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Desktop PC">
+                                <i class="bi bi-pc fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Desktop PC</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Tower Servers</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Custom Workstations</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Prebuilt Gaming PCs</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Business &amp; Office PCs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Speaker">
+                                <i class="bi bi-hdd-stack fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Speaker</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">JBL</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Anker</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Pyle</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Bose</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Logitech</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Bluetooth Headphone">
+                                <i class="bi bi-headset fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Bluetooth Headphone</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">On-Ear Headphones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">In-Ear Headphones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Earbud</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Over-Ear Headphones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Other</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 d-flex align-items-center justify-content-center">
+                            <a href="#" class="sb-icon d-block py-2" aria-label="Computer Decor">
+                                <i class="bi bi-lamp fs-5 lh-1"></i>
+                            </a>
+                            <ul class="dropdown-menu shadow-sm border-0 rounded-3 top-0 start-100">
+                                <li>
+                                    <h6 class="dropdown-header fw-bold" style="color: #425A8B;">Computer Decor</h6>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Copyholders</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Office Bookends</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Business Card Holders</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Lap Desks</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font" href="./shop-grid.html">Mouse Pads</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+                <!--sidebar end-->
+                <main class="flex-grow-1" style="min-width: 0;">
+                    <!--register start-->
+                    <div class="container">
+                        <div class="row justify-content-center g-4 g-lg-5 py-4 py-md-5">
+                            <div class="col-12 col-sm-10 col-md-9 col-lg-6">
+                                <h2 class="fw-bolder mb-1" style="color: #425A8B;">Create an account</h2>
+                                <p class="mb-4" style="color: #6F87BD;">Access to all features. No credit card required.</p>
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <label for="fullName" class="form-label small" style="color: #425A8B;">Full Name *</label>
+                                            <input
+                                                id="fullName"
+                                                type="text"
+                                                class="form-control py-2 py-md-3"
+                                                placeholder="Steven job"
+                                                required
+                                            >
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="email" class="form-label small" style="color: #425A8B;">Email *</label>
+                                            <input
+                                                id="email"
+                                                type="email"
+                                                class="form-control py-2 py-md-3"
+                                                placeholder="stevenjob@gmail.com"
+                                                required
+                                            >
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="username" class="form-label small" style="color: #425A8B;">Username *</label>
+                                            <input
+                                                id="username"
+                                                type="text"
+                                                class="form-control py-2 py-md-3"
+                                                placeholder="stevenjob"
+                                                required
+                                            >
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <label for="password" class="form-label small" style="color: #425A8B;">Password *</label>
+                                            <input
+                                                id="password"
+                                                type="password"
+                                                class="form-control py-2 py-md-3"
+                                                placeholder="******************"
+                                                required
+                                            >
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <label for="rePassword" class="form-label small" style="color: #425A8B;">Re-Password *</label>
+                                            <input
+                                                id="rePassword"
+                                                type="password"
+                                                class="form-control py-2 py-md-3"
+                                                placeholder="******************"
+                                                required
+                                            >
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input
+                                                    class="form-check-input"
+                                                    type="checkbox"
+                                                    id="agree"
+                                                    required
+                                                >
+                                                <label class="form-check-label small" for="agree" style="color: #425A8B;">By clicking Register button, you agree our
+                                                    <a href="./page-term.html" class="text-decoration-none" style="color: #26a4e9;">terms and policy</a>,
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn fw-bold px-4 py-2 py-md-3 w-100" style="--bs-btn-color: #fff; --bs-btn-bg: #425A8B; --bs-btn-border-color: #425A8B; --bs-btn-hover-color: #425A8B; --bs-btn-hover-bg: #fff; --bs-btn-hover-border-color: #425A8B; --bs-btn-active-color: #425A8B; --bs-btn-active-bg: #fff; --bs-btn-active-border-color: #425A8B;">Sign Up</button>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="small mb-0" style="color: #6F87BD;">Already have an account?
+                                                <a href="./page-login.html" class="fw-bold text-decoration-none" style="color: #425A8B;">Sign In</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-12 col-sm-10 col-md-9 col-lg-5">
+                                <h5 class="fw-bold text-center mb-4 mt-lg-5" style="color: #425A8B;">Use Social Network Account</h5>
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <a href="#" class="btn fw-bold w-100 py-2 py-lg-3 d-flex flex-wrap align-items-center justify-content-center gap-2" style="--bs-btn-color: #425A8B; --bs-btn-bg: #fff; --bs-btn-border-color: #dee2e6; --bs-btn-hover-color: #425A8B; --bs-btn-hover-bg: #f0f3f8; --bs-btn-hover-border-color: #425A8B; --bs-btn-active-color: #425A8B; --bs-btn-active-bg: #f0f3f8; --bs-btn-active-border-color: #425A8B;">
+                                            <span>Sign up with</span>
+                                            <img src="./images/google.svg" alt="Google" style="height: 24px; width: auto;">
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="btn fw-bold w-100 py-2 py-lg-3 d-flex flex-wrap align-items-center justify-content-center gap-2" style="--bs-btn-color: #425A8B; --bs-btn-bg: #fff; --bs-btn-border-color: #dee2e6; --bs-btn-hover-color: #425A8B; --bs-btn-hover-bg: #f0f3f8; --bs-btn-hover-border-color: #425A8B; --bs-btn-active-color: #425A8B; --bs-btn-active-bg: #f0f3f8; --bs-btn-active-border-color: #425A8B;">
+                                            <span>Sign up with</span>
+                                            <span style="color: #1877F2; font-size: 20px;">Facebook</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="btn fw-bold w-100 py-2 py-lg-3 d-flex flex-wrap align-items-center justify-content-center gap-2" style="--bs-btn-color: #425A8B; --bs-btn-bg: #fff; --bs-btn-border-color: #dee2e6; --bs-btn-hover-color: #425A8B; --bs-btn-hover-bg: #f0f3f8; --bs-btn-hover-border-color: #425A8B; --bs-btn-active-color: #425A8B; --bs-btn-active-bg: #f0f3f8; --bs-btn-active-border-color: #425A8B;">
+                                            <span>Sign up with</span>
+                                            <img src="./images/amazon.svg" alt="Amazon" style="height: 24px; width: auto;">
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="small text-center mt-2 mb-0" style="color: #425A8B;">Buying for work?
+                                            <a href="#" class="text-decoration-none" style="color: #26a4e9;">Create a free business account</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--register end-->
+                    <!--subscribe start-->
+                    <section class="pt-4" style="background-color: #10224f; min-height: 202px;">
+                        <div class="container">
+                            <div class="row d-flex align-items-start py-5">
+                                <div class="col-sm-12 col-md-7 col-lg-5 text-center text-md-start align-items-center">
+                                    <h2 class="fs-3 fw-bold text-white mb-2">Subscribe &amp; Get
+                                        <span style="color: #ffa25c;">10%</span> Discount
+                                    </h2>
+                                    <p class="text-white mb-0">Get E-mail updates about our latest shop and
+                                        <strong>special offers.</strong>
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 col-md-5 col-lg-4 d-flex align-items-center justify-content-center">
+                                    <div class="input-group">
+                                        <input
+                                            type="email"
+                                            class="form-control border-0 py-3"
+                                            placeholder="Your email Address"
+                                            aria-label="Your email Address"
+                                        >
+                                        <button type="button" class="btn fw-bold border-0 px-4" style="background-color: #ff9f43; color: #fff;">Sign Up</button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-3 align-self-lg-end text-center text-end px-5">
+                                    <img
+                                        src="./images/bg-newsletter.svg"
+                                        alt="Apple devices"
+                                        width="350px"
+                                        style="max-width: 100%;"
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--subscribe end-->
+                    <!--footer-->
+                    <footer>
+                        <div class="py-5" style="background-color: #f5f7fb;">
+                            <div class="container py-lg-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-4 col-lg-3">
+                                        <h5 class="fw-bold mb-4" style="color: #1f2a44;">Contact</h5>
+                                        <div style="color: #425A8B;">
+                                            <p class="mb-3">
+                                                <strong class="text-dark">Address:</strong> 502 New Design Str, Melbourne, San Francisco, CA 94110, United States
+                                            </p>
+                                            <p class="mb-3">
+                                                <strong class="text-dark">Phone:</strong> (+01) 123-456-789
+                                            </p>
+                                            <p class="mb-3">
+                                                <strong class="text-dark">E-mail:</strong> contact@ecom-market.com
+                                            </p>
+                                            <p class="mb-4">
+                                                <strong class="text-dark">Hours:</strong> 8:00 - 17:00, Mon - Sat
+                                            </p>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <a href="./index.html" class="lh-1 text-decoration-none">
+                                                <i class="bi bi-facebook" style="font-size: 32px; color: #a3aec4;"></i>
+                                            </a>
+                                            <a href="./index.html" class="d-flex align-items-center justify-content-center rounded-circle text-white text-decoration-none" style="width: 32px; height: 32px; background-color: #a3aec4;">
+                                                <i class="bi bi-instagram"></i>
+                                            </a>
+                                            <a href="./index.html" class="d-flex align-items-center justify-content-center rounded-circle text-white text-decoration-none" style="width: 32px; height: 32px; background-color: #a3aec4;">
+                                                <i class="bi bi-twitter"></i>
+                                            </a>
+                                            <a href="./index.html" class="d-flex align-items-center justify-content-center rounded-circle text-white text-decoration-none" style="width: 32px; height: 32px; background-color: #a3aec4;">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-2">
+                                        <h5 class="fw-bold mb-4" style="color: #1f2a44;">Make Money with Us</h5>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2">
+                                                <a href="./page-about-us.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Mission &amp; Vision
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./page-about-us.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Our Team
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./page-careers.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Careers
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Press &amp; Media
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Advertising
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Testimonials
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-2">
+                                        <h5 class="fw-bold mb-4" style="color: #1f2a44;">Company</h5>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2">
+                                                <a href="./blog-2.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Our Blog
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Plans &amp; Pricing
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Knowledge Base
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Cookie Policy
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Office Center
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./blog.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>News &amp; Events
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-2">
+                                        <h5 class="fw-bold mb-4" style="color: #1f2a44;">My account</h5>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>FAQs
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Editor Help
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Community
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Live Chatting
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./page-contact.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Contact Us
+                                                </a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="./index.html" class="footer-link text-decoration-none">
+                                                    <i class="bi bi-caret-right-fill me-2 small"></i>Support Center
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 col-md-8 col-lg-3">
+                                        <h5 class="fw-bold mb-4" style="color: #1f2a44;">App &amp; Payment</h5>
+                                        <p class="mb-3" style="color: #425A8B;">Download our Apps and get extra 15% Discount on your first Order...!</p>
+                                        <div class="d-flex flex-wrap gap-2 mb-4">
+                                            <a href="./index.html">
+                                                <img
+                                                    src="./images/appstore.png"
+                                                    alt="App Store"
+                                                    class="img-fluid"
+                                                    style="height: 40px;"
+                                                >
+                                            </a>
+                                            <a href="./index.html">
+                                                <img
+                                                    src="./images/google-play.png"
+                                                    alt="Google Play"
+                                                    class="img-fluid"
+                                                    style="height: 40px;"
+                                                >
+                                            </a>
+                                        </div>
+                                        <p class="mb-2" style="color: #425A8B;">Secured Payment Gateways</p>
+                                        <a href="./index.html">
+                                            <img src="./images/payment-method.png" alt="Payment methods" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white py-5">
+                            <div class="container">
+                                <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+                                    <a href="./index.html">
+                                        <img
+                                            src="./images/logo.svg"
+                                            alt="Ecom"
+                                            class="img-fluid"
+                                            style="height: 45px;"
+                                        >
+                                    </a>
+                                    <div class="d-flex flex-wrap gap-4 small mt-2">
+                                        <a href="./index.html" class="footer-link text-decoration-none">EcomMarket.com</a>
+                                        <a href="./index.html" class="footer-link text-decoration-none">Ecom Partners</a>
+                                        <a href="./index.html" class="footer-link text-decoration-none">Ecom Bussiness</a>
+                                        <a href="./index.html" class="footer-link text-decoration-none">Ecom Factory</a>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-12 col-md-2 col-lg-1 fw-bold mb-1" style="color: #1f2a44;">Electronic:</div>
+                                    <div class="col-sm-12 col-md-10 col-lg-11 small">
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Cell Phones</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Headphones</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Television &amp; Video</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Game Controller</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Apple Watch</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">HTC</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Ipad</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Keyboard</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Samsung</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Wireless Speaker</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Samsung Galaxy</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Gaming Mouse</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">eBook Readers</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Service Plans</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Home Audio</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Office Electronics</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Lenovo</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Mackbook Pro M1</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">HD Videos Player</a>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-sm-12 col-md-2 col-lg-1 fw-bold mb-1" style="color: #1f2a44;">Furniture:</div>
+                                    <div class="col-sm-12 col-md-10 col-lg-11 small">
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Sofa</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Chair</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Dining Table</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Living Room</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Table Lamp</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Night Stand</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Computer Desk</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Bar Table</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Pillow</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Radio</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Clock</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Bad Room</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Stool</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Television</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">wardrobe</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Living Room Tables</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Dressers</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Patio Sofas</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Nursery</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Kitchen</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Accent Furniture</a>
+                                        <a href="./shop-grid.html" class="footer-link text-decoration-none pe-2 me-2 mb-1 border-end">Replacement Parts</a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row align-items-center small pt-2" style="color: #425A8B;">
+                                    <div class="col-sm-12 col-md-6 text-center text-md-start mb-2 mb-md-0">Copyright © 2022 Ecom Market. All rights reserved.</div>
+                                    <div class="col-sm-12 col-md-6 text-center text-md-end">
+                                        <a href="./page-term.html" class="footer-link text-decoration-none ms-md-4 me-3 me-md-0">Conditions of Use</a>
+                                        <a href="./page-term.html" class="footer-link text-decoration-none ms-md-4 me-3 me-md-0">Privacy Notice</a>
+                                        <a href="./page-careers.html" class="footer-link text-decoration-none ms-md-4">Interest-Based Ads</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </main>
+            </div>
+            <!-- go to top button -->
+            <a
+                href="#"
+                class="btn rounded-circle position-fixed bottom-0 end-0 m-4 d-flex align-items-center justify-content-center text-white"
+                style="width: 42px; height: 42px; background-color: #425A8B;"
+                aria-label="Back to top"
+            >
+                <i class="bi bi-arrow-up"></i>
+            </a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
